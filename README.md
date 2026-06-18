@@ -3,8 +3,8 @@
 ## Установка и запуск
 
 1. Клонируйте репозиторий:
-git clone <URL>
-cd delivery_system
+- `git clone <URL>`
+- `cd delivery_system`
 
 2. Установите зависимости (только pytest для тестов):
 pip install -r requirements.txt
@@ -13,15 +13,15 @@ pip install -r requirements.txt
 
 ## CLI-режим
 # Отчёт за месяц
-python main_cli.py report --period month
+- `python main_cli.py report --period month`
 
 # Экспорт заказов (JSON или XML)
-python main_cli.py export --file orders_backup.json
-python main_cli.py export --file orders_backup.xml
+- `python main_cli.py export --file orders_backup.json`
+- `python main_cli.py export --file orders_backup.xml`
 
 # Импорт заказов
-python main_cli.py import --file orders_new.json
-python main_cli.py import --file orders_new.xml
+- `python main_cli.py import --file orders_new.json`
+- `python main_cli.py import --file orders_new.xml`
 
 # GUI-режим
 
