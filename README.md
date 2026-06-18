@@ -3,7 +3,7 @@
 ## Установка и запуск
 
 1. Клонируйте репозиторий:
-- `git clone <URL>`
+- `git clone https://github.com/St-Silver/Delivery_System.git`
 - `cd delivery_system`
 
 2. Установите зависимости (только pytest для тестов):
