@@ -7,7 +7,7 @@
 - `cd delivery_system`
 
 2. Установите зависимости (только pytest для тестов):
-pip install -r requirements.txt
+- `pip install -r requirements.txt`
 
 3. Создайте папки `logs` и `data` (если не созданы) – при первом запуске они появятся автоматически.
 
